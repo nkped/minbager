@@ -1,0 +1,102 @@
+{
+    "bread":[
+         {"whole":[
+            {
+                "categoryId": 1,
+                "categoryName": "bread",
+                "subCategoryName": "whole",
+                "id": 11,
+                "name": "Whole Wheat Bread",
+                "price": 39,
+                "imageId": "id1",
+                "count": 0
+            }
+            ]},
+          {"wheat":[
+            {
+                "categoryId": 1,
+                "categoryName": "bread",
+                "subCategoryName": "wheat",
+                "id": 12,
+                "name": "Sourdough Loaf",
+                "price": 55,
+                "imageId": "id2",
+                "count": 0
+            },
+            {
+                "categoryId": 1,
+                "categoryName": "bread",
+                "subCategoryName": "wheat",
+                "id": 13,
+                "name": "Baguette",
+                "price": 29,
+                "imageId": "id3",
+                "count": 0
+            }
+            ]},
+          {"pastry":[]} ],
+    "cake":[ 
+        {"singles":[{
+                "categoryId": 2,
+                "categoryName": "cake",
+                "subCategoryName": "singles",
+                "id": 24,
+                "name": "Chocolate Cake",
+                "price": 35,
+                "imageId": "id4",
+                "count": 0
+            },
+            {
+                "categoryId": 2,
+                "categoryName": "cake",
+                "subCategoryName": "singles",
+                "id": 25,
+                "name": "Cheesecake",
+                "price": 38,
+                "imageId": "id5",
+                "count": 0
+            },
+            {
+                "categoryId": 2,
+                "categoryName": "cake",
+                "subCategoryName": "singles",
+                "id": 35,
+                "name": "Carrot Cake",
+                "price": 3.75,
+                "imageId": "id6",
+                "count": 0
+            }]},
+        {"company":[]},
+        {"specials":[]} ],
+    "drinks":[
+        {"hot":[{
+                "categoryId": 3,
+                "categoryName": "drinks",
+                "subCategoryName": "hot",
+                "id": 37,
+                "name": "Cappuccino",
+                "price": 45,
+                "imageId": "id7",
+                "count": 0
+            },
+            {
+                "categoryId": 3,
+                "categoryName": "drinks",
+                "subCategoryName": "hot",
+                "id": 38,
+                "name": "Latte",
+                "price": 40,
+                "imageId": "id8",
+                "count": 0
+            },
+            {
+                "categoryId": 3,
+                "categoryName": "drinks",
+                "subCategoryName": "hot",
+                "id": 39,
+                "name": "Hot Chocolate",
+                "price": 49,
+                "imageId": "id9",
+                "count": 0
+            }]}, {"cold":[]} ]
+}

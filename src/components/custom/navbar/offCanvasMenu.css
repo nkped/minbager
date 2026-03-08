@@ -1,0 +1,50 @@
+
+/* Style the accordion panel. Note: hidden by default */
+
+
+.sidenav {
+  height: 100vh;
+  width: 0%; /* 0 width - change this with JavaScript */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* background-color: grey; */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  opacity: 10%;
+  transition: width 0.1s, opacity 0.3s;
+}
+
+
+
+.sidenav-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* justify-content: center;
+  padding-top: 2rem; */
+}
+
+/* The navigation menu links */
+.sidenav-link {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 8px 8px 32px;
+  /* text-decoration:none; */
+  font-size: 25px;
+  /* color: #f1f1f1; */
+  display: block;
+  opacity: 75%;
+  transition: opacity 0.2s ease-out;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav-link:hover {
+  opacity: 100%;
+
+}
+.menu-pressed {
+  width: 100%;
+  opacity: 97%;
+}

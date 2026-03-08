@@ -1,0 +1,7 @@
+
+
+.blurBackground {
+  background: transparent;
+  backdrop-filter: blur(20px);
+  z-index: 5;
+}
