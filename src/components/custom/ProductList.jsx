@@ -44,7 +44,7 @@ const ProductList = () => {
         border- border-solid border-red-500'>
           {!isHomeBlur && productCount != 0 &&     
           <div className='border-solid border- border-red-500
-          pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
+          pt-5 pb-4 fixed bottom-0 flex flex-col items-center w-full max-w-[320px]
           backdrop-blur'>
             
             <span className='w-5 border-solid border-1 border-black/20'></span>

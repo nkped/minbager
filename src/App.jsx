@@ -152,8 +152,8 @@ if(!productInOrder || productInOrder.count === 0) {
 
   return (
     <div className='mx-auto relative border- border-solid border-pink-500
-     max-w-xs h-full bg-themeambercold'>
-    <div className='w-ful'>
+     max-w-[320px] h-full bg-themeambercold'>
+    <div className='w-full'>
         <Navbar 
         productCount={productCount}
         mobileNavState={mobileNavState} 
