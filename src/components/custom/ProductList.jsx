@@ -36,33 +36,29 @@ const ProductList = () => {
     return (
       <div className='mt-8 px- max-w-sm
       border- border-solid border-red-500'>
-        <div className=''>
-          <Outlet context={{catProducts, productCount, categoryImages, handleIsHomeBlur, addProduct, subtractProduct}} />
-        </div>
 
+        <div className=''>
+          <Outlet context={{catProducts, productCount, categoryImages, handleIsHomeBlur, addProduct, subtractProduct}} /></div>
 
         <div className='absolute z-10 bottom-15 flex flex-row w-full cursor-pointer justify-center bg-transparent font-Montserrat
         border- border-solid border-red-500'>
-        
           {!isHomeBlur && productCount != 0 &&     
-          
-          <div className='pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
-        backdrop-blur'>
+          <div className='border-solid border- border-red-500
+          pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
+          backdrop-blur'>
+            
             <span className='w-5 border-solid border-1 border-black/20'></span>
-          <Button onClick={() => {
-          navigate('/cart');
-          handleMobileNavState('cart_view')}}
-          className='py-1 my-3 w-8/10 flex justify-center hover:bg-themeamberextrawarm bg-themeamber rounded-xl font-Montserrat font-semibold text-lightwalnutbold cursor-pointer'>
-            <span className='h-6 w-6 me-2 flex justify-center items-center
-            text-xs bg-white/95 rounded-full font-semibold text-black'>
-            {productCount}</span><span>Gå til kurv</span></Button>
+          
+              <Button onClick={() => {
+              navigate('/cart');
+              handleMobileNavState('cart_view')}}
+              className='py-1 my-3 w-8/10 flex justify-center hover:bg-themeamberextrawarm bg-themeamber rounded-xl font-Montserrat font-semibold text-lightwalnutbold cursor-pointer'>
+              
+                <span className='h-6 w-6 me-2 flex justify-center items-center
+                text-xs bg-white/95 rounded-full font-semibold text-black'>{productCount}</span><span>Gå til kurv</span></Button>
             
-            <div className='w-20 border-solid border-1 border-black/20'></div>
-        </div>
-            
-            
-            
-            }</div></div>
+                <div className='w-20 border-solid border-1 border-black/20'></div></div>}
+                </div></div>
     );
 
 };

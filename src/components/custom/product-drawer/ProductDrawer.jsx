@@ -7,7 +7,7 @@ const ProductDrawer = ({isActive, onShow, id, name, categoryId, categoryName, su
     return (
     <>
     { isActive && 
-        <div className='bg-themeamber z-20 absolute bottom-0 left-0'>
+        <div className='bg-themeamber z-20 absolute top-45 left-0 min-h-200'>
             <img src={image} className="opacity-70 w-full h-3/2 object-cover" />
             <div className="text-left font-bold">
                 <div className='border- border-solid
@@ -16,7 +16,7 @@ const ProductDrawer = ({isActive, onShow, id, name, categoryId, categoryName, su
                 <h1 className="border- border-solid
                 max-w-50 pb-1 self-center ps-2 text-xl text-lightwalnutbold leading-6" >{name}</h1>
             
-            <button className='border- border-solid
+                <button className='border- border-solid
                 flex flex-col justify-center 
                 ps-2 pe-3 pt-1 pb-2 rounded-bl-md
                 text-lightwalnutbold bg-themegray-bold' onClick={(e) => {onShow(); e.stopPropagation(); handleIsHomeBlur(); handleIsBlur()}}>

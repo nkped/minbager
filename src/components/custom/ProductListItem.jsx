@@ -34,7 +34,7 @@ border-solid border-blue-500 border-'>
     //console.log('img_values, index', img_values, index)
         
         return (
-        <div key={sub} className='mb-5'>
+        <div key={sub} className='mb-5 px-3'>
             {/* <div className={isBlur && 'blur-xs'}></div> */}
             {/* <div className='pt-5
             text-black/90 text-start text-lg

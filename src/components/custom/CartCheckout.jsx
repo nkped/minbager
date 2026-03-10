@@ -12,7 +12,7 @@ const CartCheckout = () => {
 
     return (
         <div className=''>
-            <div className='mx-2 pt-5 flex flex-col items-start font-Montserrat border-t-1 border-solid border-black/20'>
+            <div className='mx-2 pt-5 px- flex flex-col items-start font-Montserrat border-t-1 border-solid border-black/20'>
                 <div className='flex flex-col'>
                     
                     <span className='flex flex-row'>
@@ -55,7 +55,7 @@ const CartCheckout = () => {
             }}
         )}
 
-        <div className='mx-2 me- my-2 pt-1 flex justify-between text-xl border-t-1 border-solid border-black/20'><span>Total</span><span>{total} kr</span></div>
+        <div className='mx-2 my-2 pt-2 flex justify-between text-lg border-t-1 border-solid border-black/20 font-Montserrat'><span>Total</span><span>{total} kr</span></div>
         
                       <div className='pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
         backdrop-blur'>

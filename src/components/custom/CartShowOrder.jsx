@@ -50,7 +50,8 @@ const CartShowOrder = () => {
                 </div>)
             }}
         )}
-        <div className='pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
+        <div className='border-solid border- border-red-500
+        pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
         backdrop-blur'>
             <div className='w-5 border-solid border-1 border-black/20'></div>
             <Button onClick={() => { handleMobileNavState('cartdetails_view'); navigate('/cartdetails')}} className='py-1 my-3 w-8/10 flex justify-around 

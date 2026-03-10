@@ -18,7 +18,7 @@ return (
             productCount={productCount}
             resetOrder={resetOrder}/>
         </div>
-            <DesktopNav />
+        {/* <div className="hidden"><DesktopNav /></div> */}
         </header>
     );
 }
