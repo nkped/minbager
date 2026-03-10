@@ -33,14 +33,8 @@ let navigate = useNavigate();
     
     return (
         <div className='w-full h-full flex justify-center border- border-solid border-green-500'>
-            <div className={ isHomeBlur ? 'homeBlur' : ''}>
-                {/* <div className='relative flex flex-col items-center font-Montserrat'>
-
-                    <img className='brightness-52 opacity-85' alt='bakery store front' src='/src/assets/otherImages/bakeryHome.png'/>
-                    
-                    <div className='absolute bottom-10 left-50% flex flex-col  font-semibold text-white opacity- '>
-                    <div className='self-start text-'>Butik valgt</div>
-                    <div className='pt-2 text-2xl'>{customerData.storeLocation}</div></div></div> */}
+            <div className={ isHomeBlur ? 'homeBlur' : 'noHomeBlurFakeClassName'}>
+               
 
         
            <div className='mt-8 px- pt-5 h-full flex flex-col gap-4

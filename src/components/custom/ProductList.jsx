@@ -44,13 +44,7 @@ const ProductList = () => {
         <div className='absolute z-10 bottom-15 flex flex-row w-full cursor-pointer justify-center bg-transparent font-Montserrat
         border- border-solid border-red-500'>
         
-          {productCount != 0 && !isHomeBlur &&  
-          
-          
-          
-          
-          
-          
+          {!isHomeBlur && productCount != 0 &&     
           
           <div className='pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
         backdrop-blur'>
@@ -62,13 +56,9 @@ const ProductList = () => {
             <span className='h-6 w-6 me-2 flex justify-center items-center
             text-xs bg-white/95 rounded-full font-semibold text-black'>
             {productCount}</span><span>Gå til kurv</span></Button>
+            
             <div className='w-20 border-solid border-1 border-black/20'></div>
         </div>
-            
-            
-            
-            
-            
             
             
             

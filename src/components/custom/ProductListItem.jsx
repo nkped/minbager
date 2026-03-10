@@ -53,7 +53,7 @@ border-solid border-blue-500 border-'>
                     handleIsBlur(); 
                     handleProductDrawer(ele.id)}} className='w-30 flex flex-col
                     border-solid border- border-pink-500'>
-                        <div className={isBlur && 'blur-xs'}>
+                        <div className={isBlur ? 'blur-xs' : ''}>
                             <img className='object-cover rounded-md
                             h-30 opacity-75 shadow-sm' alt='bla bla' src=
                             {img_values[index]} />
