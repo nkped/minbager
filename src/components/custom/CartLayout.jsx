@@ -15,7 +15,7 @@ const {order, addProduct, subtractProduct, customerData, handleCustomerData, han
         })
     //console.log('total', total)
     return (
-        <div className='pt- flex flex-col w-full'>
+        <div className='pt- flex flex-col w-full max-w-[320px]'>
             <Outlet context={{total, order, addProduct, subtractProduct, customerData, handleCustomerData, handleMobileNavState, handleSubmitOrder, resetOrder}} />
         </div>
     );

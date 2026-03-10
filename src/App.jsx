@@ -151,8 +151,9 @@ if(!productInOrder || productInOrder.count === 0) {
 
 
   return (
-    <div className=' border- border-solid border-pink-500
-    w-full h-full bg-themeambercold'>
+    <div className='mx-auto relative border- border-solid border-pink-500
+     max-w-xs h-full bg-themeambercold'>
+    <div className='w-ful'>
         <Navbar 
         productCount={productCount}
         mobileNavState={mobileNavState} 
@@ -179,7 +180,7 @@ if(!productInOrder || productInOrder.count === 0) {
        bakeryData,
        resetOrder
         }}/>
-    </div>
+    </div></div>
   )
 }
 

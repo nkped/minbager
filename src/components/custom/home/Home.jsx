@@ -32,7 +32,7 @@ let navigate = useNavigate();
   
     
     return (
-        <div className='w-full h-full flex justify-center border- border-solid border-red-200'>
+        <div className='w-full h-full flex justify-center border- border-solid border-green-500'>
             <div className={ isHomeBlur ? 'homeBlur' : ''}>
                 {/* <div className='relative flex flex-col items-center font-Montserrat'>
 
@@ -43,8 +43,8 @@ let navigate = useNavigate();
                     <div className='pt-2 text-2xl'>{customerData.storeLocation}</div></div></div> */}
 
         
-           <div className='mt-8 px-1 pt-5 flex flex-col gap-4
-                border- border-solid border-themeamberwarm/70 rounded-lg'>
+           <div className='mt-8 px- pt-5 h-full flex flex-col gap-4
+                border- border-solid border-red-500 rounded-lg'>
                 
                 
                 <label htmlFor='storeLocation' className='pb-2 text-left text-black/80 font-Montserrat'>Vælg Butik
@@ -78,18 +78,16 @@ let navigate = useNavigate();
                 onChange={handleChange}
                 placeholder='07:35'
                 /></label>
-
-                <div className='pt-5 pb-4 fixed bottom-0 left-0 flex flex-col items-center w-full backdrop-blur'>
-                    <div className='w-5 border-solid border-1 border-black/20'></div>
-                    <Button className='py-1 my-3 w-8/10 flex justify-around hover:bg-themeamberextrawarm bg-themeamber rounded-xl font-Montserrat font-semibold text-lightwalnutbold cursor-pointer' onClick={(e) => handleSubmit(e)}>Til bestilling</Button>
-                    <div className='w-20 border-solid border-1 border-black/20'></div></div>
+                <div className='border-solid border- border-red-500 
+                pt-5 pb-4 fixed bottom-0  flex flex-col items-center w-full max-w-[320px] backdrop-blur'>
+                <span className='w-5 border-solid border-1 border-black/20'></span>
+                <Button className='py-1 my-3 w-8/10 flex justify-around hover:bg-themeamberextrawarm bg-themeamber rounded-xl font-Montserrat font-semibold text-lightwalnutbold cursor-pointer' onClick={(e) => handleSubmit(e)}>Til bestilling</Button>
+                <div className='w-20 border-solid border-1 border-black/20'></div></div>
 
                 </div>
                 </div>
 
-                {/* <OffCanvasMenu handleIsHomeBlur={handleIsHomeBlur} isHomeBlur={isHomeBlur}/> */}
-
-                {/* <div className='flex w-full h-10' onClick={resetOrder}>KØR resetOrder</div> */}
+               
         </div>
     );
 };

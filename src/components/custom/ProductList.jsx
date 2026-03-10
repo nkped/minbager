@@ -34,7 +34,7 @@ const ProductList = () => {
       })
     
     return (
-      <div className='mt-8 px-2
+      <div className='mt-8 px- max-w-sm
       border- border-solid border-red-500'>
         <div className=''>
           <Outlet context={{catProducts, productCount, categoryImages, handleIsHomeBlur, addProduct, subtractProduct}} />
@@ -52,9 +52,9 @@ const ProductList = () => {
           
           
           
-          <div className='pt-5 pb-4 fixed bottom-0 left-0 flex flex-col items-center w-full
+          <div className='pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
         backdrop-blur'>
-            <div className='w-5 border-solid border-1 border-black/20'></div>
+            <span className='w-5 border-solid border-1 border-black/20'></span>
           <Button onClick={() => {
           navigate('/cart');
           handleMobileNavState('cart_view')}}
@@ -62,7 +62,6 @@ const ProductList = () => {
             <span className='h-6 w-6 me-2 flex justify-center items-center
             text-xs bg-white/95 rounded-full font-semibold text-black'>
             {productCount}</span><span>Gå til kurv</span></Button>
-            
             <div className='w-20 border-solid border-1 border-black/20'></div>
         </div>
             

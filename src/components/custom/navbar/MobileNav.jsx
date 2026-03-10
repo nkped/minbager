@@ -48,7 +48,7 @@ console.log('isHomeBlur from mobilenav', isHomeBlur)
 
 
     return (
-      <div className='md:hidden w-full'>
+      <div className='md:hidde w-full'>
 
          {homeView && <div className="h-50 flex relative ">
           <div className='flex w-full h-full bg-[url(/src/assets/otherImages/bakeryhero.png)] bg-cover 

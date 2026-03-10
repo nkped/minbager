@@ -7,8 +7,8 @@ const ProductDrawer = ({isActive, onShow, id, name, categoryId, categoryName, su
     return (
     <>
     { isActive && 
-        <div className='bg-themeamber z-20 fixed bottom-0 left-0'>
-            <img src={image} className="opacity-70" />
+        <div className='bg-themeamber z-20 absolute bottom-0 left-0'>
+            <img src={image} className="opacity-70 w-full h-3/2 object-cover" />
             <div className="text-left font-bold">
                 <div className='border- border-solid
                 flex justify-between'>

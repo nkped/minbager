@@ -57,7 +57,7 @@ const CartCheckout = () => {
 
         <div className='mx-2 me- my-2 pt-1 flex justify-between text-xl border-t-1 border-solid border-black/20'><span>Total</span><span>{total} kr</span></div>
         
-                      <div className='pt-5 pb-4 fixed bottom-0 left-0 flex flex-col items-center w-full
+                      <div className='pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
         backdrop-blur'>
             <div className='w-5 border-solid border-1 border-black/20'></div>
            <Button onClick={() => {navigate('/'); resetOrder()}} className='py-1 my-3 w-8/10 flex justify-around 

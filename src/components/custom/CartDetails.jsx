@@ -29,7 +29,7 @@ let navigate = useNavigate();
 
     
     return (
-        <div className='flex flex-col gap-4 px-2 pt-5'>
+        <div className='flex flex-col gap-4 px- pt-5'>
             <div className='self-start bg-themeamberextrawarm p-1 rounded-sm text-black/70'>Afhentning</div>
             <div className='flex flex-col items-start'>
               <span className='font-semibold text-lg text-black/70'>{customerData.storeLocation}</span>
@@ -57,7 +57,7 @@ let navigate = useNavigate();
             /></label>
             
 
-              <div className='pt-5 pb-4 fixed bottom-0 left-0 flex flex-col items-center w-full
+              <div className='pt-5 pb-4 fixed bottom-0 left- flex flex-col items-center w-full max-w-[320px]
         backdrop-blur'>
             <div className='w-5 border-solid border-1 border-black/20'></div>
             <Button className='py-1 my-3 w-8/10 flex justify-around 
